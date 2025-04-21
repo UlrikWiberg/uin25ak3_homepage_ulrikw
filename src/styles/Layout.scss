@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: darkblue;
+
+    nav {
+        color: white;
+        h1 {
+            font-size: 20px;
+        }
+
+        li{
+            list-style: none;
+
+            a{
+                color: white;
+            }
+        }
+    }
+}
+  

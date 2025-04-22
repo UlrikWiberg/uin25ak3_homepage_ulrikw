@@ -1,23 +1,41 @@
-header {
+#homepage {
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    background-color: darkblue;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    color: #222;
 
-    nav {
-        color: white;
-        h1 {
-            font-size: 20px;
-        }
+    header {
+        background-color: darkblue;
+        border-bottom: 1px solid #ddd;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
 
-        li{
-            list-style: none;
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
 
-            a{
+            h1 {
+                font-size: 2rem;
                 color: white;
             }
-        }
+    
+            li {
+                list-style: none;
+            }
+    
+            a {
+                color: white;
+            }
+        } 
+    }
+
+    main{
+        flex: 1;
+        padding: 2rem;
     }
 }
+
   

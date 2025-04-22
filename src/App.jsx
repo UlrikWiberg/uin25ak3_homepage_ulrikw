@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-     <Layout>
+     <Layout profile={profile}>
       <Routes>
         <Route path="/" element={<Home profile={profile} log={log}/>} />
         <Route path="profile/:profile" element={<Profile />} />

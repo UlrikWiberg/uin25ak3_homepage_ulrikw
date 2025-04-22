@@ -25,20 +25,18 @@ export default function Profile() {
     return (
         <section>
             <article className="profilartikkel">
-                <h1>{profileInfo.profilnavn}</h1>
                 <img src={profileInfo.image.asset.url} alt={profileInfo.profilnavn} />
-                <h2>Email</h2>
-                <p>{profileInfo.email}</p>
+                <h1>{profileInfo.profilnavn}</h1> 
+                <h2>Biografi</h2>
+                <p>{profileInfo.biografi}</p>
                 <h2>Interesser</h2>
                 <ul>
                     {profileInfo.interesser?.map((item, index) => (
                         <li key={index}>{item}</li>
                     ))}
                 </ul> 
-                <h2>Biografi</h2>
-                <p>{profileInfo.biografi}</p>
             </article>
-            <article>
+            <article className="arbeidslogg">
                 <h2>Arbeidslogg</h2>
                 {profileInfo.logg?.map((entry) => (
                     <ul key={entry._id}>

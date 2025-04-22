@@ -1,7 +1,13 @@
-article {
+.loggartikkel {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: darkgray;
+    width: 100%;
+
+    p{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
 }
   

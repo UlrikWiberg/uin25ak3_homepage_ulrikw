@@ -3,7 +3,7 @@ import "../styles/Layout.scss";
 
 export default function Layout({ children, profile }) {
     return (
-        <>
+        <section id="homepage">
         <header>
             <nav>
             <h1>UIN25_Gruppe30</h1>
@@ -20,6 +20,6 @@ export default function Layout({ children, profile }) {
         <main>
             {children}
         </main>
-        </>
+        </section>
     )
 }

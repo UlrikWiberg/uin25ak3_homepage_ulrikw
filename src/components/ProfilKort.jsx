@@ -7,6 +7,7 @@ export default function ProfilKort({profile}) {
             <article>
                 <h2>{profile.profilnavn}</h2>
                 <img src={profile.image.asset.url} alt={profile.profilnavn} />
+                <p>{profile.email}</p>
             </article>
             </Link>
     )

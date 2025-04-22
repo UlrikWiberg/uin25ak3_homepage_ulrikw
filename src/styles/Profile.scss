@@ -1,3 +1,30 @@
 .profilartikkel {
     background-color: white;
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        background-color: white;
+        border: none;
+    }
+}
+
+.arbeidslogg {
+    h2 {
+        display: block;
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            list-style: none;
+            padding: 1rem;
+        }
+    }
+    
+    
 }
